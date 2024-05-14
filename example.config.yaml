@@ -1,0 +1,28 @@
+cut: CUT
+
+sources:
+  - slug: FeedA
+    scene: RAW_FEED_A
+    desc: Feed A dynamic source
+  - slug: FeedB
+    scene: RAW_FEED_B
+    desc: Feed B dynamic source
+layouts:
+  - slug: simple
+    scene: LAYOUT_simple
+    desc: Simple layout with using Slot1 only.
+    slots:
+      - Slot1
+  - slug: PIP
+    scene: LAYOUT_PIP
+    desc: Picture-in-picture layout using Slot1 and Slot2.
+    slots:
+      - Slot1
+      - Slot2
+slots:
+  - slug: Slot1
+    scene: SLOT_PRIMARY
+    desc: Primary slot
+  - slug: Slot2
+    scene: SLOT_SECONDARY
+    desc: Secondary slot

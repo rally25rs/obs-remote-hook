@@ -90,8 +90,14 @@ layouts:
       - Slot1
       - Slot2
 slots:
-  Slot1: SLOT_PRIMARY
-  Slot2: SLOT_TOP
+  - slug: Slot1
+    scene: SLOT_PRIMARY
+    source: SLOT_PRIMARY
+    desc: Primary slot
+  - slug: Slot2
+    scene: SLOT_SECONDARY
+    source: SLOT_SECONDARY
+    desc: Secondary slot
 groups:
   Slot1:
     - FeedA
@@ -126,3 +132,11 @@ Breakdown:
 - Set Scene
 - Set a Slot's Source
 - Get config
+
+
+## Dev Notes
+- Uses Node 22
+- Yarn Berry for workspace management
+- ESLint for linting
+- Typescript for type safety
+- TSConfig extends @tsconfig/node22

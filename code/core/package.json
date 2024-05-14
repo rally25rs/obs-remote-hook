@@ -1,0 +1,11 @@
+{
+  "name": "@adventure/core",
+  "packageManager": "yarn@4.2.2",
+  "dependencies": {
+    "@adventure/models": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "typescript": "^5.4.5"
+  }
+}

@@ -59,6 +59,10 @@ I am not 100% on the technology stack yet. I am considering:
 - SetAudio
   - AudioChannel, Volume
   - Sets the audio volume
+- StartStream
+  - Starts the stream
+- StopStream
+  - Stops the stream
 - Cut
   - Cuts to the configured scene
   - Intended for emergency cut-away

@@ -1,0 +1,14 @@
+yarn.lock-workspace
+**/tsconfig.tsbuildinfo
+*/.npmrc
+.git
+.yarn/yarn.build.json
+
+.yarn/install-state.gz
+
+node_modules
+yarn-error.log
+
+**/dist/
+
+config.yaml
