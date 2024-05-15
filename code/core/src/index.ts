@@ -1,9 +1,16 @@
+import OBSWebSocket from 'obs-websocket-js'
+
 export class ObsHook {
-  constructor() {
+  readonly _obs: OBSWebSocket
+  constructor () {
     console.log('ObsHook')
   }
 
-  public doThing() {
+  public async connect (): Promise<void> {
+    this._obs.connect()
+  }
+
+  public doThing () {
     console.log('doThing')
   }
 }
