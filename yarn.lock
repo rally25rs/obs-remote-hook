@@ -47,6 +47,8 @@ __metadata:
 "obs-remote-hook@workspace:.":
   version: 0.0.0-use.local
   resolution: "obs-remote-hook@workspace:."
+  dependencies:
+    typescript: "npm:^5.4.5"
   languageName: unknown
   linkType: soft
 

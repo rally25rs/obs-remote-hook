@@ -1,6 +1,11 @@
 {
   "name": "@adventure/socket",
   "packageManager": "yarn@4.2.2",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "yarn run tsc",
+    "start": "node dist/index.js"
+  },
   "dependencies": {
     "@adventure/core": "workspace:*",
     "@adventure/models": "workspace:*"

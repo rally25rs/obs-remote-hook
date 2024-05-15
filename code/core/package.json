@@ -1,6 +1,10 @@
 {
   "name": "@adventure/core",
   "packageManager": "yarn@4.2.2",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "yarn run tsc"
+  },
   "dependencies": {
     "@adventure/models": "workspace:*"
   },

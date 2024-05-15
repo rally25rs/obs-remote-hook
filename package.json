@@ -3,5 +3,12 @@
   "packageManager": "yarn@4.2.2",
   "workspaces": [
     "code/*"
-  ]
+  ],
+  "scripts": {
+    "build": "yarn workspaces foreach -At run build",
+    "start": "yarn workspace @adventure/socket start"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
 }
